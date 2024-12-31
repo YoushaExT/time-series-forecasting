@@ -19,6 +19,8 @@ from sklearn.metrics import (
 
 
 def evaluate_model(test, forecast):
+    # replace NaN values with 0 in forecast
+    forecast = np.nan_to_num(forecast)
     rmse = np.sqrt(mean_squared_error(test, forecast))
     mae = mean_absolute_error(test, forecast)
     r2 = r2_score(test, forecast)
