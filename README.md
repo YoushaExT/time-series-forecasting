@@ -2,11 +2,11 @@
 
 # Files
 
-amd.csv - First dataset (KPI only)
-house.csv - Second dataset (KPI + exogenous variables)
-tsf1.ipynb - Notebook for the first dataset
-tsf2_extra_variables.ipynb - Notebook for the second dateset
-helper_functions.py - Custom utility functions
+- `amd.csv` - First dataset (KPI only)
+- `house.csv` - Second dataset (KPI + exogenous variables)
+- `tsf1.ipynb` - Notebook for the first dataset
+- `tsf2_extra_variables.ipynb` - Notebook for the second dateset
+- `helper_functions.py` - Custom utility functions
 
 # Requirements
 
